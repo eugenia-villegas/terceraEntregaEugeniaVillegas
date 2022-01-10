@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Estilo-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!--Icono-->
+    <link rel="icon" href="img/logoTop.ico">
+    <!--Fuente-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200&display=swap" rel="stylesheet">
+    <!--Iconos-->   
+    <script src="https://kit.fontawesome.com/1df7561c8b.js"></script> 
+    <!--Libreria Bootstrap-->
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+    <title>Leave your opinion!</title>
+</head>
+<body>
+    <div class="grid">
+    <header class="header">
+    <a href="index.html"><img class="header-logo" src="img/logo.png" alt="Twenty One Pilots logo"></a>
+    </header>  
+    <nav class="navegador">
+        <ul class="navegador-lista">
+            <li><a class="navegador-link" href="index.html">The Pilots</a></li>
+            <li><a class="navegador-link" href="discography.html">Discography</a></li>
+            <li><a class="navegador-link" href="comment.html">Leave a comment</a></li>
+        </ul>
+    </nav>
+    <main class="principal wrapper formContainer">
+        
+        <form class="form" id="form">
+            <div class="form-control">
+                <label for="">Name</label>
+                <input type="text" id="username" placeholder="Josh">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small id="smallName">Name cannot be blank</small>
+            </div>
+            <div class="form-control">
+                <label for="">Last Name</label>
+                <input type="text" id="lastname" placeholder="Dun">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small id="smallLastName">Lastname cannot be blank</small>
+            </div>
+            <div class="form-control">
+                <label for="">Email</label>
+                <input type="text" id="email" placeholder="hello@clique.com">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small id="smallEmail">Email cannot be blank</small>
+            </div>
+            <div class="form-control">
+                <label for="">Comments</label>
+                <input type="text" id="comments" placeholder="Leave a message...">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small id="smallComment">Please, leave a comment!</small>
+            </div>
+            <div class="thanks"></div>
+            <button class="submit" type="submit">Submit</button>
+        </form>
+        
+    </main>
+
+
+    <footer class="pie">
+        <p class="pie-parrafo">Created and designed by Eugenia Villegas</p>
+        <div class="pie-div"><a href="https://www.linkedin.com/in/maria-eugenia-villegas-638159105/" class="pie-link">Follow me on LinkedIn</a></div>
+    </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="jsp/top.js"></script>
+    <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+</html>
